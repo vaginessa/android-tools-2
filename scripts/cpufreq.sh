@@ -1,4 +1,4 @@
-
+#!/bin/bash
 governor=$1
 cur_freq=$2
 i=0;
