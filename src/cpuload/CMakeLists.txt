@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(cpuload)
+include_directories ("${PROJECT_SOURCE_DIR}")
+add_executable(cpuload cpuload.c)
+add_executable(cpustats cpustats.c)
