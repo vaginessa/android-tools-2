@@ -1,0 +1,9 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4e12", MODE="0660" GROUP="dialout" OWNER=""
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="4ee7", MODE="0660" GROUP="dialout" OWNER=""
+
+# fastboot protocol on HiKey
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="d00d", MODE="0660" GROUP="dialout" OWNER=""
+# adb protocol on HiKey
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", ATTR{idProduct}=="1057", MODE="0660" GROUP="dialout" OWNER=""
+# rndis for HiKey
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", ATTR{idProduct}=="1050", MODE="0660" GROUP="dialout" OWNER=""
